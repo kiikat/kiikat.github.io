@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
 * {
-	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
@@ -16,7 +15,7 @@ body {
 
 h2 {
 	color: #c19bf5;
-	font-size: 12px;
+	font-size: 50px;
 	position: relative;
 	text-transform: uppercase;
 	-webkit-text-stroke: 0.3vw #f7f7fe;
