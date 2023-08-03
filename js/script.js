@@ -1,4 +1,8 @@
 // Wrap every letter in a span
+$(document).ready(function(){
+  $('body').append($('<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>'));
+});
+
 var textWrapper = document.querySelector('.title');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
