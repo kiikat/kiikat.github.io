@@ -1,0 +1,9 @@
+.title {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .title .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
