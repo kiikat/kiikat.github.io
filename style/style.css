@@ -32,7 +32,7 @@ body {
 	content: attr(data-text);
 	border-right: 2px solid #fffe22;
 	-webkit-text-stroke: 0vw #f7f7fe;
-	animation: animate 6s linear infinite;
+	animation: animate 6s linear infinite forwards;
 }
 
 @keyframes animate {
