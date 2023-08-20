@@ -8,29 +8,29 @@
 
 body {
 	display: flex;
-	background: #100f10;
+	background: #ffffff;
 	align-items: center;
 	justify-content: center;
 }
 
-h2 {
-	color: #c19bf5;
+.title {
+	color: #fffe22;
 	font-size: 50px;
 	position: relative;
 	text-transform: uppercase;
 	-webkit-text-stroke: 0.3vw #f7f7fe;
 }
 
-h2::before {
+.title::before {
 	top: 0;
 	left: 0;
 	width: 0;
 	height: 100%;
-	color: #8338ec;
+	color: #fffe00;
 	overflow: hidden;
 	position: absolute;
 	content: attr(data-text);
-	border-right: 2px solid #c19bf5;
+	border-right: 2px solid #fffe22;
 	-webkit-text-stroke: 0vw #f7f7fe;
 	animation: animate 6s linear infinite;
 }
