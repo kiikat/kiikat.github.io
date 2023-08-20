@@ -18,7 +18,7 @@ body {
 	font-size: 50px;
 	position: relative;
 	text-transform: uppercase;
-	-webkit-text-stroke: 0.3vw #f7f7fe;
+	-webkit-text-stroke: 0.3vw #fbb500;
 }
 
 .title::before {
@@ -31,7 +31,7 @@ body {
 	position: absolute;
 	content: attr(data-text);
 	border-right: 2px solid #fffe22;
-	-webkit-text-stroke: 0vw #f7f7fe;
+	-webkit-text-stroke: 0vw #fbb500;
 	animation: animate 6s linear infinite forwards;
 }
 
